@@ -1,6 +1,8 @@
 # CARF
 A Content-Adaptive Resizing Framework for Boosting Computation Speed of Background Modeling Methods
 
+The source code will be available soon.
+
 Abstract—Recently, most background modeling (BM) methods 
 claim to achieve real-time efficiency for low-resolution and
 standard-definition surveillance videos. With the increasing resolutions
@@ -26,6 +28,8 @@ GPU accelerations is also significantly faster than that of the
 state-of-the-art methods.
 
 If you use the CARF codes, please cite the following paper.
+Chun-Rong Huang, Wei-Yun Huang, Yi-Sheng Liao, Chien-Cheng Lee, and Yu-Wei Yeh, "A Content-Adaptive Resizing Framework for
+Boosting Computation Speed of Background Modeling Methods," accepted by IEEE Transactions on Systems, Man, and Cybernetics: Systems, 2020.
 
 The demo videos are available at https://www.youtube.com/playlist?list=PLeFabaAzO2xwAr_Ya9ui8hWEtFpAieTYR
 
