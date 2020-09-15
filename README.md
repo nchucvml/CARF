@@ -27,6 +27,9 @@ Moreover, the computation speed of the proposed method without
 GPU accelerations is also significantly faster than that of the
 state-of-the-art methods.
 
+Flow chart of CARF.
+![image](https://github.com/nchucvml/CARF/blob/master/flowchart.png)
+
 If you use the CARF codes, please cite the following paper.
 Chun-Rong Huang, Wei-Yun Huang, Yi-Sheng Liao, Chien-Cheng Lee, and Yu-Wei Yeh, "A Content-Adaptive Resizing Framework for
 Boosting Computation Speed of Background Modeling Methods," accepted by IEEE Transactions on Systems, Man, and Cybernetics: Systems, 2020.
