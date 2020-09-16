@@ -37,7 +37,82 @@ Boosting Computation Speed of Background Modeling Methods," accepted by IEEE Tra
 
 * The demo videos are available at https://www.youtube.com/playlist?list=PLeFabaAzO2xwAr_Ya9ui8hWEtFpAieTYR
 
+
+* ReadMe.txt : The document for CARF
+
+==========  Include file ==========
+
+#include "CARF.h"
+
+========== Initialization ==========
+
+CCARF carf;
+
+========== Resize image ==========
+
+// Construct the superpixel information for the input matData
+carf.Downsample(const cv::Mat &matData, cv::Mat &labels, cv::Size dspSize, float omega = 0.0f, bool tbbBoost = true);
+
+// Construct the downsampled image
+carf.ConstructDspImage(cv::Mat &image) const;
+
+// Upsample the srcImage using superpixel information
+carf.UspMapping(const cv::Mat &srcImage, cv::Mat &dstImage, bool tbbBoost = true);
+
+=====================================================================================
+
+// The boosting framework for boundary segmentation in High-Resolution Images
+
+========== Include file ==========
+
+#include "CARFBooster.h"
+
+========== To apply algorithm to the boosting framework ==========
+
+1. Inherit the "CCARFBooster"
+
+2. virtual void AlgorithmImpl(const cv::Mat &srcImg, cv::Mat &resultImg);
+// Implement the algorithm at the virtual function "AlgorithmImpl."
+
+3. virtual void PreProcess(const cv::Mat &srcImg, cv::Mat &resultImg);
+// Override the function if the algorithm need some preprocessing procedure before image downsampling
+
+4. virtual void PostProcess(const cv::Mat &srcImg, cv::Mat &resultImg);
+// Override the function if the algorithm need some preprocessing procedure after image upsampling
+
+=====================================================================================
+
+// To use the boosted algorithm
+
+========== Include file ========== 
+#include "DeriveClassName.h"
+
+========== Initialization ========== 
+
+CDeriveClassName deriveClass;
+
+// Set the size for downsampled image
+deriveClass.SetDspSize(cv::Size dspSize); 
+
+// Set the algorithm for image resizing
+deriveClass.SetDspAlgo(DSPALGO dspAlgo); 
+
+========== DSPALGO ==========
+
+DA_ORI: Without image resizing
+DA_CARF: Superpixel based Image Downsampling
+DA_NN: Nearest neighbor interpolation
+DA_BILINEAR: Bilinear interpolation
+DA_BICUBIC: Bicubic interpolation
+
+========== Run algorithm ==========
+
+// Execute algorithm with the boosting framework
+deriveClass.Boost(const cv::Mat &srcImg, cv::Mat &resultImg);
+
+
 * Used background modeling methods
+
 GMM method is originally from opencv
 Vibe method is originally from https://blog.csdn.net/zouxy09/article/details/9622285
 SubSense method is originally from https://bitbucket.org/pierre_luc_st_charles/subsense/src/master/
