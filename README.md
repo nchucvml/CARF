@@ -37,3 +37,7 @@ Boosting Computation Speed of Background Modeling Methods," accepted by IEEE Tra
 
 * The demo videos are available at https://www.youtube.com/playlist?list=PLeFabaAzO2xwAr_Ya9ui8hWEtFpAieTYR
 
+* Used background modeling methods
+GMM method is originally from opencv
+Vibe method is originally from https://blog.csdn.net/zouxy09/article/details/9622285
+SubSense method is originally from https://bitbucket.org/pierre_luc_st_charles/subsense/src/master/
