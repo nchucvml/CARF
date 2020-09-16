@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\CARFBooster">
+      <UniqueIdentifier>{3520bc67-2346-4d2d-bcf1-82ce908cbf1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CARFBooster\Booster">
+      <UniqueIdentifier>{be26278c-b269-489a-9886-471cb2fc01f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CARFBooster\VibeBooster">
+      <UniqueIdentifier>{9e7d9b84-215b-4b0e-85c3-a2d345fd1592}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CARFBooster\SuBSENSEBooster">
+      <UniqueIdentifier>{ac70fc0a-302a-44df-8988-b5c5aa97bb24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CARFBooster\SuBSENSEBooster\SuBSENSE">
+      <UniqueIdentifier>{5c9087e4-313a-4ca8-b39c-2f13a339c113}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CARFBooster\GMMBooster">
+      <UniqueIdentifier>{4ba68bec-e175-48a7-8898-6f56da3fa1c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CARFBooster">
+      <UniqueIdentifier>{f6801d4e-ab77-40e6-9a54-8f744a0306bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CARFBooster\Booster">
+      <UniqueIdentifier>{d2699024-6ac2-43eb-802b-f0ced57ffbb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CARFBooster\VibeBooster">
+      <UniqueIdentifier>{f478aab0-2e65-4749-b8a4-34e5e25db7bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CARFBooster\SuBSENSEBooster">
+      <UniqueIdentifier>{5bc18a4e-0c2e-4431-bb64-5055e5ff178f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CARFBooster\SuBSENSEBooster\SuBSENSE">
+      <UniqueIdentifier>{383e0f59-8eb1-4a83-a3c5-343c449dee88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CARFBooster\GMMBooster">
+      <UniqueIdentifier>{65f505f9-54ba-4530-9095-e30ed075b343}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vibe.h">
+      <Filter>Header Files\CARFBooster\VibeBooster</Filter>
+    </ClInclude>
+    <ClInclude Include="VibeBooster.h">
+      <Filter>Header Files\CARFBooster\VibeBooster</Filter>
+    </ClInclude>
+    <ClInclude Include="SuBSENSE\BackgroundSubtractorLBSP.h">
+      <Filter>Header Files\CARFBooster\SuBSENSEBooster\SuBSENSE</Filter>
+    </ClInclude>
+    <ClInclude Include="SuBSENSE\BackgroundSubtractorSuBSENSE.h">
+      <Filter>Header Files\CARFBooster\SuBSENSEBooster\SuBSENSE</Filter>
+    </ClInclude>
+    <ClInclude Include="SuBSENSE\DistanceUtils.h">
+      <Filter>Header Files\CARFBooster\SuBSENSEBooster\SuBSENSE</Filter>
+    </ClInclude>
+    <ClInclude Include="SuBSENSE\LBSP.h">
+      <Filter>Header Files\CARFBooster\SuBSENSEBooster\SuBSENSE</Filter>
+    </ClInclude>
+    <ClInclude Include="SuBSENSE\RandUtils.h">
+      <Filter>Header Files\CARFBooster\SuBSENSEBooster\SuBSENSE</Filter>
+    </ClInclude>
+    <ClInclude Include="SuBSENSEBooster.h">
+      <Filter>Header Files\CARFBooster\SuBSENSEBooster</Filter>
+    </ClInclude>
+    <ClInclude Include="GMMBoooster.h">
+      <Filter>Header Files\CARFBooster\GMMBooster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CARF\CARFBooster.h">
+      <Filter>Header Files\CARFBooster\Booster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CARF\CARF.h">
+      <Filter>Header Files\CARFBooster\Booster</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vibe.cpp">
+      <Filter>Source Files\CARFBooster\VibeBooster</Filter>
+    </ClCompile>
+    <ClCompile Include="VibeBooster.cpp">
+      <Filter>Source Files\CARFBooster\VibeBooster</Filter>
+    </ClCompile>
+    <ClCompile Include="SuBSENSE\LBSP.cpp">
+      <Filter>Source Files\CARFBooster\SuBSENSEBooster\SuBSENSE</Filter>
+    </ClCompile>
+    <ClCompile Include="SuBSENSE\BackgroundSubtractorSuBSENSE.cpp">
+      <Filter>Source Files\CARFBooster\SuBSENSEBooster\SuBSENSE</Filter>
+    </ClCompile>
+    <ClCompile Include="SuBSENSE\BackgroundSubtractorLBSP.cpp">
+      <Filter>Source Files\CARFBooster\SuBSENSEBooster\SuBSENSE</Filter>
+    </ClCompile>
+    <ClCompile Include="SuBSENSEBooster.cpp">
+      <Filter>Source Files\CARFBooster\SuBSENSEBooster</Filter>
+    </ClCompile>
+    <ClCompile Include="GMMBoooster.cpp">
+      <Filter>Source Files\CARFBooster\GMMBooster</Filter>
+    </ClCompile>
+    <ClCompile Include="CARF_Boosting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CARF\CARF.cpp">
+      <Filter>Source Files\CARFBooster\Booster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CARF\CARFBooster.cpp">
+      <Filter>Source Files\CARFBooster\Booster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CARF\CARFMultiBooster.cpp">
+      <Filter>Source Files\CARFBooster\Booster</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

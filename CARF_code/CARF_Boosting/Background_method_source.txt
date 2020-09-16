@@ -1,0 +1,5 @@
+This file is for illustrating the source of method which we boosted.
+
+GMM method is originally from opencv
+SubSense method is originally from https://bitbucket.org/pierre_luc_st_charles/subsense/src/master/
+Vibe method is originally from https://blog.csdn.net/zouxy09/article/details/9622285
