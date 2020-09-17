@@ -87,6 +87,7 @@ int _tmain(int argc, const char** argv)
 				std::stringstream frameIdStr;
 				std::string tempcac;
 				resultPath = ".\\Results\\";
+				_mkdir(".\\Results");
 				resultPath = resultPath + datasets[ds];
 				_mkdir(resultPath.c_str());
 				std::string GMM2 = resultPath + "\\GMM2";

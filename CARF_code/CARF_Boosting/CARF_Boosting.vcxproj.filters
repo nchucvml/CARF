@@ -128,9 +128,6 @@
     <ClCompile Include="..\CARF\CARFBooster.cpp">
       <Filter>Source Files\CARFBooster\Booster</Filter>
     </ClCompile>
-    <ClCompile Include="..\CARF\CARFMultiBooster.cpp">
-      <Filter>Source Files\CARFBooster\Booster</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />

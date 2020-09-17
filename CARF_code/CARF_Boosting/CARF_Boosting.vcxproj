@@ -183,7 +183,6 @@
   <ItemGroup>
     <ClCompile Include="..\CARF\CARF.cpp" />
     <ClCompile Include="..\CARF\CARFBooster.cpp" />
-    <ClCompile Include="..\CARF\CARFMultiBooster.cpp" />
     <ClCompile Include="GMMBoooster.cpp" />
     <ClCompile Include="SuBSENSEBooster.cpp" />
     <ClCompile Include="CARF_Boosting.cpp" />

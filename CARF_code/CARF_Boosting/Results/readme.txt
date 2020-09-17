@@ -1,7 +1,0 @@
-Each dataset with
-GMM2
-GMM4
-SuBSENSE2
-SuBSENSE4
-VIBE2
-VIBE4
