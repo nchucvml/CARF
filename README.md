@@ -35,7 +35,7 @@ state-of-the-art methods.
 Chun-Rong Huang, Wei-Yun Huang, Yi-Sheng Liao, Chien-Cheng Lee, and Yu-Wei Yeh, "A Content-Adaptive Resizing Framework for
 Boosting Computation Speed of Background Modeling Methods," accepted by IEEE Transactions on Systems, Man, and Cybernetics: Systems, 2020.
 
-Paper in https://ieeexplore.ieee.org/document/9197636
+Paper Open Access in https://ieeexplore.ieee.org/document/9197636
 
 * The demo videos are available at https://www.youtube.com/playlist?list=PLeFabaAzO2xwAr_Ya9ui8hWEtFpAieTYR
 
