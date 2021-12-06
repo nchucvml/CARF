@@ -114,5 +114,7 @@ deriveClass.Boost(const cv::Mat &srcImg, cv::Mat &resultImg);
 * Used background modeling methods
 
 ** GMM method is originally from opencv
+
 ** Vibe method is originally from https://blog.csdn.net/zouxy09/article/details/9622285
+
 ** SubSense method is originally from https://bitbucket.org/pierre_luc_st_charles/subsense/src/master/
